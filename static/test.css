@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Gabriola, serif, arial;
+    color: #131210;
+    background: url('static/images/layers.png') no-repeat center center/cover;
+    font-size: 22px;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .cta-buttons a {
+    padding: 0.8em 1.5em;
+    margin: 0 0.5em;
+    background: #c96a3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s, transform 0.3s;
+}
+
+header .cta-buttons a:hover {
+    background: #f1b56d;
+    transform: scale(1.1);
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 0.04em 0;
+    text-shadow: 1px 1px 3px rgba(236, 92, 6, 0.79);
+}
+
+header .cta-buttons {
+    margin-top: 1em;
+}
+
+header .cta-buttons a {
+    padding: 0.8em 1.5em;
+    margin: 0 0.5em;
+    background: #c96a3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 0 4px 10px rgb(18, 31, 71);
+    transition: background 0.3s, transform 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+footer {
+    background: #fafafa;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
